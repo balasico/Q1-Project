@@ -1,0 +1,303 @@
+html , body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url('https://i.pinimg.com/736x/e5/92/27/e59227ccbbcdfcd1f145a38060ede939.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Courier New;
+  overflow-x: hidden;
+}
+
+.header1{
+	margin-right: 0px;
+	margin-bottom: 0px;
+	padding: 2px;
+	width: 100%;
+	background-color: #457359;
+}
+
+.header1-links{
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	padding-left: 10px;
+}
+
+.header1-links:hover{
+	color: #E09FB3;
+	font-size: 15px;
+	text-align: center;
+	padding-left: 10px;
+}
+
+.header2{
+	color: #457359;
+	font-size: 25px;
+	text-align: center;
+
+	margin-left:0px;
+	margin-right: 0px;
+	margin-bottom: 25px;
+	padding: 55px;
+	padding-left: 0;
+	width: 100%;
+	border-bottom: 5px solid white;
+
+	background-image: url('https://i.pinimg.com/1200x/7a/eb/20/7aeb20c472b3d74bef976c44c60cf4d2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.content{
+	text-align: left;
+	color: black;
+	font-size: 15px;
+
+	margin: auto;
+	padding: 50px;
+	width: 75%;
+
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	border: 5px dotted #C95988;
+}
+
+.footer{
+	color: #457359;
+	font-size: 15px;
+	text-align: center;
+
+	padding-top: 30px;
+	padding-bottom: 3px;
+	margin-top: 25px;
+	width: 100%;
+
+	bottom: 0;
+	left: 0;
+
+	float: center;
+}
+
+#aboutme , #myworks , #contactme{
+	color: white;
+	text-align: center;
+	
+	background-color: #799F76;
+	border-radius: 10px;
+	width: 75%;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text_content , .list , .link , b{
+	color: #D37897;
+	font-size: 20px;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.list{
+	margin-top: 0px;
+}
+
+a{
+	color: #457359;
+}
+
+a:hover{
+	color: #E09FB3;
+}
+
+.myworks_content{
+	margin-bottom: 1156px;
+}
+
+.myworks_bulletpoints{
+	color: #D37897;
+	font-size: 20px;
+	text-align: left;
+	float: right;
+	margin-right: 50px;
+	margin-bottom: 100px;
+}
+
+.imageandcaption{
+	margin-left: 50px;
+	float: left;
+}
+
+img{
+	width: 479px;
+	height: 236px;
+
+	border: 4px solid #D37897;
+	border-radius: 13px;
+	float: left;
+}
+
+.image_caption{
+	color: #D37897;
+	font-size: 20px;
+}
+
+
+/*FROM CSS STARTS HERE*/
+
+.ContactMe_form{
+	color: #75334F; /*change for labels*/
+
+	width: 500px;
+
+	margin: auto;
+	padding: 25px;
+	border: 4px solid white;
+	border-radius: 13px;
+}
+
+.form_bg{ /*fix width and height later*/
+	width: 558px;
+	height: 816px;	
+	margin: auto;
+	border-radius: 13px;
+	background-image: linear-gradient(to bottom, white, #E09FB3);
+}
+
+			/*text, email, radio, checkbox, select, comment/feedback*/
+
+::placeholder {
+  color: #799F76;
+}
+
+input[type="text"]{
+	color: #457359;
+	font-size: 14px;
+	font-family: Courier New;
+
+	padding: 5px;
+	background-color: #F9DEE5;
+	border-color: #C95988;
+	border-radius: 10px;
+
+	width: 100%;
+}
+
+input[type="email"]{
+	color: #457359;
+	font-size: 14px;
+	font-family: Courier New;
+
+	padding: 5px;
+	background-color: #F9DEE5;
+	border-color: #C95988;
+	border-radius: 10px;
+
+	width: 100%;
+}
+
+input[type="number"]{
+	color: #457359;
+	font-size: 14px;
+	font-family: Courier New;
+
+	padding: 5px;
+	background-color: #F9DEE5;
+	border-color: #C95988;
+	border-radius: 10px;
+
+	width: 100%;
+}
+
+.radio , .checkbox{
+	color: #799F76;/*same as placeholder*/
+}
+
+input[type="radio"]{
+	accent-color: #457359;
+}
+
+input[type="checkbox"]{
+	accent-color: #457359;
+}
+
+select{
+	color: #799F76;/*same as placeholder*/
+	font-size: 14px;
+	font-family: Courier New;
+
+	padding: 5px;
+	background-color: #F9DEE5;
+	border-color: #C95988;
+	border-radius: 10px;
+
+	width: 102%;
+}
+
+textarea{
+	color: #457359;
+	font-family: Courier New;
+	font-size: 14px;
+
+	padding: 5px;
+	background-color: #F9DEE5;
+	border-color: #C95988;
+	border-radius:10px;
+
+	width: 100%;
+}
+
+.submit_button{
+	font-family: Courier New;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+
+	padding: 5px;
+	background-color: #D37897;
+	border-color: #C95988;
+	border-radius: 10px;
+	width: 100%;
+}
+
+.submit_button:hover{
+	font-family: Courier New;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+
+	padding: 5px;
+	background-color: #799F76;
+	border-color: #C95988;
+	border-radius: 10px;
+	width: 100%;
+}
+
+.clearform_button:hover{
+	font-family: Courier New;
+	font-size: 14px;
+	color: #457359;
+	float: right;
+	margin-top: 3px;
+	background-color: transparent;
+	border: transparent;
+}
+
+.clearform_button{
+	font-family: Courier New;
+	font-size: 14px;
+	color: #73304D;
+	float: right;
+	margin-top: 3px;
+	background-color: transparent;
+	border: transparent;
+	cursor: pointer;
+}
